@@ -1,0 +1,22 @@
+.customer_search_result_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    padding: 1em 2em;
+    background: #F2F2F2;
+    border-radius: 15px;
+    margin-bottom: 1em;
+
+    cursor: pointer;
+    
+
+    /* border: 2px solid red; */
+
+}
+
+.customer_search_result_name{
+    font-size: 0.8em;
+    color: #808080;
+}
+

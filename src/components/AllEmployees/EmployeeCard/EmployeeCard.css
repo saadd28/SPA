@@ -1,0 +1,56 @@
+
+.emp_card_free{
+    background-color: #EFEFEFED;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    margin: 1em;
+
+    cursor: pointer;
+
+    border-radius: 20px;
+}
+
+.emp_card_busy{
+    background-color: #F92F2F;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    margin: 1em;
+    cursor: pointer;
+
+    
+
+    border-radius: 20px;    
+}
+
+.emp_card_name_free{
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+.emp_card_name_busy{
+    font-weight: 600;
+    font-size: 1.1em;
+    color: white;
+}
+
+.emp_card_status_free{
+    color: #6FA66B;
+    font-size: 1em;
+    font-weight: 500;
+
+    padding-top: 8%;
+}
+
+.emp_card_status_busy{
+    color: white;
+    font-size: 1em;
+    font-weight: 500;
+
+    padding-top: 8%;
+}

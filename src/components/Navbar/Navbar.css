@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@500&family=Inter:wght@300;400&family=Montserrat&display=swap');
+
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+    position: fixed;
+    width: 100%;
+    top: 0;
+    /* border: 2px solid red; */
+    padding-left: 10%;
+    padding-right: 10%;
+    background: white;
+    height: 5em;
+    z-index: 5;
+
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+}
+
+.navbar_spaname_style{
+    font-weight: bold;
+    /* font-size: 1.2em; */
+}
+
+.navebar_spaname{
+
+    /* border: 2px solid green; */
+    height: fit-content;
+    font-size: 1.1em;
+
+
+}
+
+
+.navbar_buttons{
+    /* border: 2px solid yellow; */
+    display: flex;
+    
+}
+
+.navbar_join_btn{
+    width: 14em;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    border-radius: 0.5em;
+    margin-right: 1em;
+    padding: 0.6em 3em;
+
+    cursor: pointer;
+
+}
+
+.navbar_dropdownbox{
+    background-color: #6FA66B;
+    border-radius: 0.3em;
+    
+    padding: 2%;
+    display: flex;
+}
+
+.navbar_dropdownbox img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.navbar_dropdown{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 0 2%;
+
+}
+
+.navbar_dropdown option{
+    font-size: 1.3em;
+    /* padding: 1em; */
+}
+
+
+.navbar_links{
+    display: flex;
+    width: 40%;
+    justify-content: space-evenly;
+    /* border: 2px solid red; */
+}
+
+.navbar_links_style{
+    color: #000000;
+    font-size: 1em;
+    font-family: 'Montserrat';
+
+    cursor: pointer;
+}
+
+.navbar_links_style:hover{
+    color: #6FA66B;
+}

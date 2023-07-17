@@ -1,0 +1,22 @@
+.service_info_box{
+
+    border: 1px solid #0000001A;
+
+    display: flex;
+    justify-content: space-around;
+    padding: 0.4em 3em 0.4em 2em;
+    margin: 1em auto;
+    font-size: 1.2em;
+
+    border-radius: 25px;
+}
+
+.service_title{
+    font-family: 'El Messiri';
+    color: #6FA66B;
+}
+
+.servicer_name{
+    font-family: 'El Messiri';
+    color: #263238;
+}

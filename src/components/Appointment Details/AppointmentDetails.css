@@ -1,0 +1,200 @@
+
+
+.leaf_pos{
+    top:10em;
+}
+
+.appointment_details_main_container{
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 8em;
+}
+
+.appointment_details_heading{
+    font-family: 'El Messiri';
+    font-size: 2.1em;
+    font-weight: 400;
+    padding-top: 2em;
+    padding-bottom: 1em;
+    width: fit-content;
+}
+
+.app_det_container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.app_det_leftside{
+    width: 59%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.app_det_detbox{
+    background-color: #F8F8F8;
+    border-radius: 15px;
+    padding: 2em 1em;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.app_dets_headings{
+    margin-left: 10%;
+    width: 30%;
+}
+
+.app_dets_headings_style{
+    color: #6FA66B;
+    font-size: 1em;
+    padding: 6%;
+}
+
+.app_dets_content{
+    margin-left: 5%;
+    width: 30%;
+}
+
+.app_dets_content_style{
+    color: #263238;
+    font-weight: 600;
+    font-size: 1em;
+    padding: 6%;
+}
+
+.app_det_leaf2{
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: -4%;
+    width: 30%;
+
+}
+
+.app_dets_buttons{
+    padding-top: 7%;
+    padding-bottom: 7%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 60%;
+
+}
+
+.app_det_mod_btn{
+    color: white;
+    background: #6fa66b;
+    padding: 0.6em 3em;
+    border-radius: 20px;
+    border: none;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 0.8em;
+}
+
+.app_det_invoice_btn{
+    color: white;
+    background: black;
+    padding: 0.6em 3em;
+    border-radius: 20px;
+    border: none;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 0.8em;
+}
+
+
+.app_det_rightside{
+    width: 39%;
+}
+
+.customer_det_box{
+    
+    color: white;
+    background: #252525;
+    border-radius: 15px;
+    position: relative;
+    padding: 25px 0px;
+
+}
+
+.customer_det_subbox1{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0em 4em;
+    padding-right: 5em;
+
+}
+
+.app_det_leaf_1{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-bottom: -10%;
+    margin-left: -10%;
+    width: 70%;
+    height: 130%;
+    /* z-index: 0; */
+
+}
+
+.customer_det_subbox1 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    z-index: 1;
+}
+/* .image_container{
+    border-radius: 100%;
+    width: 110px;
+    height: 110px;
+    background-color: #F0F0F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+} */
+
+
+
+.customer_number_label_style{
+    width: 130px;
+    color: #6FA66B;
+    font-size: 1em;
+    text-align: center;
+}
+
+
+.customer_det_subbox2{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0em 3.25em;
+    padding-right: 4.5em;
+    padding-top: 6%;
+}
+
+.customer_name_style{
+
+    font-size: 1.1em;
+    font-weight: 600;
+
+}
+
+.customer_number_style{
+    font-size: 1.1em;
+    font-weight: 400;
+
+}
+

@@ -1,0 +1,23 @@
+.bs_services_box{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8em 3em;
+    padding-right: 4em;
+    border: 1px solid #0000001A;
+    border-radius: 20px;
+
+    margin: 0.7em 0;
+}
+
+.bs_service_name{
+    font-family: 'El Messiri';
+    font-size: 1em;
+    color: #6FA66B;
+}
+
+.bs_service_employee{
+    color: #263238;
+    font-family: 'El Messiri';
+    font-size: 1.1em;
+}

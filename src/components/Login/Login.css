@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@500&family=Inter:wght@300;400&family=Montserrat&display=swap');
+
+
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+.login_main_container{
+    background-color: white;
+    /* height: 100vh; */
+    width: 100%;
+    overflow: hidden;
+}
+
+.leaf{
+    position: absolute;
+    top: 7rem;
+    left: 0;
+    height: 58%;
+    width: 10%;
+    /* z-index: -1; */
+
+    /* border: 2px solid gainsboro; */
+}
+
+
+.login_main_screen{
+    display: flex;
+    /* margin-top: 5rem; */
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    width: 70%;
+    padding-top: 7em;
+    /* justify-content: space-evenly; */
+}
+
+.login_main_screen_left{
+    /* border: 2px solid green; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* align-items: center; */
+    
+
+
+
+}
+
+.login_left_heading{
+    /* border: 2px solid khaki; */
+    font-family: 'El Messiri';
+    font-size: 4.2em;
+    height: fit-content;
+
+}
+
+.login_left_para{
+    color: #808080;
+    
+}
+
+
+.login_input_box{
+    /* border: 2px solid hotpink; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12%;
+    
+
+}
+
+.login_input_field_container{
+    width: 85%;
+    /* border: 2px solid red; */
+    position: relative;
+
+}
+
+.login_input_box input{
+    /* padding: 3% 2% 3% 6%;*/
+    padding: 1.5em 0;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    width: 100%;
+    border-radius: 25px;
+    background-color: #f5f5f5;
+    border: none;
+    font-weight: 500;
+    margin: 2% 0%;
+}
+
+.login_inp_error_msg{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: 5%;
+    font-size: 10px;
+    color: red;
+}
+
+.login_signin_btn{
+    background-color: #6FA66B;
+    border: none;
+    padding: 0.8em 4em 0.8em 4em;
+    border-radius: 25px;
+    font-size: 1em;
+    font-weight: 700;
+    color: white;
+    margin-top: 3%;
+
+}
+
+.login_signin_btn:hover{
+    cursor: pointer;
+}
+
+.login_main_screen_right{
+    /* border: 2px solid yellow; */
+    width: 50%;
+ 
+
+    
+
+}
+
+.login_main_screen_right img{
+    /* border: 2px solid green; */
+    height: 70%;
+}
+

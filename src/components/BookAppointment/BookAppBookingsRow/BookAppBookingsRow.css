@@ -1,0 +1,54 @@
+
+
+.book_app_booking_row_positions{
+    margin: 0 auto;
+}
+
+.book_app_booking_row_td{
+    /* min-width: 150px;
+    text-align: center;
+    padding: 10px 0px;*/
+    /* margin: 0 auto; */
+    min-width: 140px;
+    /* max-width: 150px; */
+    text-align: center;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    font-size: 0.8em;
+    color: #808080;
+    background-color: #F8F8F8;
+    /* margin-left: 2em; */
+
+}
+
+.book_app_row_edit_btn{
+    width: 120px;
+    padding: 0.5em 1em;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 1em;
+    background-color: #6FA66B;
+    border: none;
+    border-radius: 26px;
+    color: white;
+    cursor: pointer;
+}
+
+.book_app_row_cancel_btn{
+    width: 120px;
+    padding: 0.5em 1em;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 1em;
+    background-color: black;
+    border: none;
+    border-radius: 26px;
+    color: white;
+    cursor: pointer;
+
+}
+
+.testing{
+}
+
+

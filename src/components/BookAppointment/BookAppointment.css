@@ -1,0 +1,553 @@
+
+.book_app_main_container{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 3em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+
+    /* background: red; */
+}
+
+.book_app_customer_container{
+    /* border: 2px solid gray; */
+    border-radius: 10px;
+    width: 45%;
+    padding-left: 3em;
+    padding-top: 1.5em;   
+    padding-bottom: 1.5em;
+    padding-right: 2.7em;
+    background: #EEEEEE;
+
+    position: relative;
+
+}
+
+.book_app_customer_container_header{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    /* width: 10%; */
+}
+
+.book_app_customer_container_header img{
+    width: 40px;
+    cursor: pointer;
+    /* width: 10%; */
+}
+
+
+
+
+.book_app_customer_container_heading{
+    font-family: 'El Messiri';
+    font-size: 1.8em;
+}
+
+.book_app_customer_buttons{
+    width: 100%;
+    margin: 1em 0em;
+    margin-bottom: 2em;
+}
+
+.book_app_customer_walkin_btn{
+    width: 50%;
+    padding: 0.7em 1.8em;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+    font-family: 'Montserrat';
+
+    cursor: pointer;
+
+}
+
+.book_app_customer_existing_btn{
+    width: 50%;
+    padding: 0.7em 1.8em;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    font-family: 'Montserrat';
+
+    cursor: pointer;
+
+    
+
+
+}
+
+.book_app_btn_selected{
+    background: #6FA66B;
+    font-size: 0.75em;
+    color: white;
+    font-weight: 800;
+    border: none;
+}
+
+.book_app_btn_unselected{
+    background: transparent;
+    font-size: 0.7em;
+    color: #181818;
+    font-weight: 700;
+    border: 1px solid #B0B0B0;
+
+}
+
+.book_app_customer_input{
+    width: 100%;
+    font-weight: 500;
+    color: #7B7B7B;
+    font-family: "Montserrat";
+    padding: 0.7em 2em;
+    border: none;
+    border-radius: 28px;
+
+}
+
+
+
+.book_app_customer_search_container{
+    background: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 60vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    z-index: 2;
+    border-radius: 52px;
+    border: 1px solid #B0B0B0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    overflow-y: scroll;
+    /* padding-bottom: 1em; */
+    /* margin-bottom: 1em; */
+}
+
+.book_app_customer_search_close{
+    width: 25px;
+    right: 0;
+    /* top: 0; */
+    position: absolute;
+    margin-right: 3%;
+    margin-top: 3%;
+    cursor: pointer;
+    /* padding-right: 5%; */
+    /* right: 0; */
+    /* border: 2px solid red; */
+}
+
+.book_app_customer_search_container::-webkit-scrollbar-track {
+    background-color: transparent;
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+}
+
+
+.book_app_customer_search_input_container{
+    /* background: #6FA66B; */
+    width: 86%;
+    margin-top: 3em;
+    border-radius: 40px;
+    position: relative;
+
+    margin-bottom: 2em;
+    display: flex;
+    align-items: center;
+    /* position: sticky; */
+    /* position: fixed; */
+    /* justify-content: flex-start; */
+    
+}
+
+.book_app_customer_search_input{
+    background: #6FA66B;
+    width: 100%;
+    /* margin-top: 2em; */
+    border-radius: 40px;
+    height: 100%;
+    padding-left: 2em;
+    padding-right: 4.2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    /* padding: 1em; */
+    border: none;
+    /* height: fit-content; */
+
+
+    color: #F5F5F5;
+    font-size: 0.8em;
+}
+
+.book_app_customer_search_input::placeholder{
+    color: #F5F5F5;
+    
+}
+
+.book_app_customer_search_input_container img{
+    position: absolute;
+    right: 0;
+    padding-right: 5%;
+    width: 11%;
+    cursor: pointer;
+    /* top: auto; */
+}
+
+
+
+
+.book_app_service_container{
+    background: #EEEEEE;
+    width: 66%;
+    margin-top: 1em;
+    /* padding: 1em; */
+
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+}
+
+.book_app_service_heading{
+    font-family: 'El Messiri';
+    font-size: 1.8em;
+    padding-top: 1.5em;
+    
+}
+
+.book_app_service_steps_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 45%;
+    position: relative;
+    margin-top: 1em;
+
+    /* border: 2px solid red; */
+}
+
+/* .book_app_services_step_selected{
+color: blue;
+} */
+
+.book_app_service_steps_container img{
+    width: 15%;
+    z-index: 1;
+}
+
+.book_app_service_steps_line{
+    position: absolute;
+    width: 85%;
+    /* justify-content: center; */
+    /* z-index: 0; */
+    margin-left: 8%;
+    margin-right: 8%;
+
+    border: 1px solid #A0A0A0;
+}
+
+.book_app_services_step_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2.5em;
+    width: 56%;
+    position: relative;
+    /* border: 2px solid green; */
+}
+
+
+/* Step 2 css */
+.book_app_services_step_content_2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2.5em;
+    width: 80%;
+    /* border: 2px solid green; */
+}
+
+
+.calender_container{
+width: 60%;
+/* border: 2px solid red; */
+/* height: auto; */
+
+}
+
+.book_app_service_line_style{
+    /* height: 80%; */
+    padding: 0 1em;
+    /* border: 2px solid red; */
+}
+
+.book_app_service_time_inputs{
+    width: fit-content;
+    /* border: 2px solid red; */
+
+}
+
+.book_app_service_time_inputs input[type="time"]::-webkit-calendar-picker-indicator{
+    background: url('../../img/book_app_service_downarrow.png');
+    background-repeat: no-repeat;
+    margin-top: 1em;
+    cursor: pointer;
+
+}
+
+
+
+.book_app_service_time_inputs input[type="time"]{
+    width: 100%;
+
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.book_app_service_time_inputs_start_style{
+    border-radius: 22px;
+    width: 98%;
+    padding: 0.5em 1em;
+    border: none;
+    margin: 0.5em 0;
+
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+
+.book_app_service_time_inputs_start_style:before{
+    content: 'Start Time';
+    color: black;
+    position: absolute;
+    background: #fff;
+    width: 70px;
+
+}
+
+.book_app_service_time_inputs input[type="time"]:focus:before {
+    width: 0;
+    content: '';
+}
+
+
+.book_app_service_time_inputs_end_style{
+    border-radius: 22px;
+    width: 98%;
+    padding: 0.5em 1em;
+    border: none;
+    margin: 0.5em 0;
+
+    font-family: 'Montserrat';
+    font-weight: 600;
+
+
+}
+
+.book_app_service_time_inputs_end_style:before{
+    content: 'End Time';
+    color: black;
+    position: absolute;
+    background: #fff;
+    width: 70px;
+
+}
+
+/* end step 2 */
+
+
+.book_app_services_dropdown{
+    width: 100%;
+    padding-left: 2em;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+    padding-right: 2em;
+    border-radius: 28px;
+    border: none;
+    font-family: 'Montserrat';
+    color: #7B7B7B;
+    cursor: pointer;
+    -webkit-appearance: none;
+    appearance: none;
+
+    /* -webkit-appearance: none; */
+
+}
+
+.book_app_services_step_content::after {
+    content: "▼";
+    font-size: 1rem;
+    color: #808080;
+    right: 0;
+    margin-right: 3%;
+    /* top: 6px;
+    right: 10px; */
+    position: absolute;
+    pointer-events: none;
+}
+  
+
+.book_app_services_dropdown_options{
+    margin: 1em;
+    font-family: 'Inter';
+    /* color: blue; */
+    /* border: none; */
+    /* background-color: #6FA66B; */
+}
+/* 
+.book_app_services_dropdown_options:hover{
+    background-color: #6FA66B;
+
+} */
+
+
+
+
+.book_app_service_buttons{
+    /* border: 2px solid lawngreen; */
+    width: 56%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.book_app_services_next_btn{
+    width: 33%;
+    /* width: 130px; */
+    padding: 0.6em 1em;
+    border: none;
+    background: #6FA66B;
+    border-radius: 24px;
+    margin-top: 3em;
+    margin-bottom: 2.5em;
+    cursor: pointer;
+    color: white;
+    font-family: "Montserrat";
+    font-weight: 700;
+    /* font-size: 1em; */
+}
+
+.book_app_services_addmore_btn{
+    width: 33%;
+    /* width: 130px; */
+    padding: 0.6em 1em;
+    border: none;
+    background: black;
+    border-radius: 24px;
+    margin-top: 3em;
+    margin-bottom: 2.5em;
+    cursor: pointer;
+    color: white;
+    font-family: "Montserrat";
+    font-weight: 700;
+}
+
+/* .book_app_services_complete_btn{
+    
+} */
+
+.book_app_service_leaf{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 23%;
+    margin-right: -2%;
+    margin-top: -2.5%;
+}
+
+.book_app_booking_container{
+    border: 1px solid #999999;
+    border-radius: 15px;
+    /* padding: 1em; */
+    /* padding-top: 1.5em;
+    padding-left: 4.5em;
+    padding-right: 2em;
+    padding-bottom: 1.5em; */
+    height: 60vh;
+    width: 95%;
+    margin-top: 4em;
+    overflow-y: scroll;
+
+}
+
+.book_app_booking_container::-webkit-scrollbar-track {
+    background-color: transparent;
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;
+}
+
+.book_app_booking_table{
+    border-spacing: 0 10px;
+    border-collapse: separate;
+    width: 90%;
+
+    /* margin-top: 1em; */
+    margin: 1em auto;
+    /* padding-left: 1em; */
+    /* padding-top: 1.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 1.5em; */
+
+}
+
+.book_app_booking_table_header{
+    /* width: 100%; */
+    font-size: 0.8em;
+    /* margin-bottom: 1rem; */
+    /* margin-left: 2em; */
+    /* padding-left: 1em; */
+    border: 2px solid floralwhite;
+}
+
+.book_app_booking_table_header_content{
+    /* padding: 1em; */
+    font-size: 1.3em;
+    padding-bottom: 0.5rem;
+    /* margin-bottom: 1rem; */
+    /* width: 130px; */
+    color: #7B7B7B;
+    /* padding-bottom: 2%; */
+}
+
+.book_app_checkout_btn{
+    border: 2px solid red;
+    width: 21%;
+    background: #6FA66B;
+    border: none;
+    font-weight: 700;
+    font-size: 0.8em;
+    color: white;
+    padding: 0.7em 1em;
+    border-radius: 59px;
+
+    cursor: pointer;
+    margin: 4em 0;
+    margin-bottom: 6em;
+}
+
+.book_app_leaf_1{
+    position: absolute;
+    left: 0;
+    margin-top: 6rem;
+    width: 15%;
+}
+
+.book_app_leaf_3{
+    position: absolute;
+    right: 0;
+    width: 15%;
+    margin-top: 20rem;
+}

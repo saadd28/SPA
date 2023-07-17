@@ -1,0 +1,75 @@
+.react_calender{
+    max-width: 100%;
+    height: auto;
+
+}
+.react-calendar__navigation__label__labelText,
+.react-calendar__navigation__label__labelText--from{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 1.1em;
+
+}
+
+.react-calendar__navigation__label{
+    background: transparent;
+    border: none;
+    margin: 1em 0;
+}
+
+
+
+.react-calendar__navigation__arrow 
+.react-calendar__navigation__next-button{
+    background: transparent;
+    color: #333333;
+}
+
+.react-calendar__month-view__weekdays__weekday{
+
+    font-weight: 600;
+    font-size: 0.9em;
+    text-align: center;
+    padding: 0.8em 0;
+}
+
+.react-calendar__month-view__weekdays__weekday abbr[title] {
+    text-decoration: none;
+}
+
+
+
+.react-calendar__tile {
+
+    background: transparent;
+    border: none;
+    margin: 1em 0;
+
+}
+
+.react-calendar__tile--active{
+    background: #353535;
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    margin: 0;
+
+    color: white;
+    font-weight: 700;
+}
+
+
+
+
+
+/* <button class="react-calendar__tile react-calendar__tile--now react-calendar__tile--active react-calendar__tile--range react-calendar__tile--rangeStart react-calendar__tile--rangeEnd react-calendar__tile--rangeBothEnds react-calendar__month-view__days__day" type="button" style="flex: 0 0 14.2857%; overflow: hidden;"><abbr aria-label="January 17, 2023">17</abbr></button> */
+
+
+/* <button class="react-calendar__tile react-calendar__month-view__days__day" disabled="" type="button" style="flex: 0 0 14.2857%; overflow: hidden;"><abbr aria-label="January 2, 2023">2</abbr></button> */
+/* <button class="" disabled="" type="button" style="flex: 0 0 14.2857%; overflow: hidden; margin-left: 85.7143%;"><abbr aria-label="January 1, 2023">1</abbr></button> */
+
+/* <button aria-label="" class="react-calendar__navigation__arrow react-calendar__navigation__next-button" disabled="" type="button">›</button> */
+
+/* <button aria-label="" class="react-calendar__navigation__arrow react-calendar__navigation__prev2-button" disabled="" type="button">«</button> */
+
+/* <div class="react-calendar__month-view__weekdays__weekday" style="flex: 0 0 14.2857%; overflow: hidden;"><abbr aria-label="Monday" title="Monday">Mon</abbr></div> */

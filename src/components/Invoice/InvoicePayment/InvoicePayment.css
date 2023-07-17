@@ -1,0 +1,101 @@
+.inv_payment_container{
+    width: 30vw;
+    /* height: 60vh; */
+    margin: auto;
+    background-color: white;
+    border-radius: 33px;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* z-index: 10; */
+}
+.modal_Overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(137, 191, 147, 0.75);
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+}
+
+.inv_payment_heading{
+    /* border: 2px solid red; */
+    width: 100%;
+    text-align: center;
+    padding: 1.6em 0;
+    color: white;
+    background: #6FA66B;
+    font-weight: 700;
+    font-size: 1.1em;
+    border-radius: 33px;
+    /* padding-left: 4em; */
+}
+
+.inv_payment_paymentmethod_dropdown_wrapper{
+    width: 85%;
+    position: relative;
+}
+
+/* .inv_payment_paymentmethod_dropdown_wrapper::after {
+    content: "▼";
+    font-size: 1rem;
+    right: 0;
+    margin-right: 3%;
+    position: absolute;
+  } */
+
+.inv_payment_paymentmethod_dropdown{
+    width: 100%;
+    margin-top: 4em;
+    padding: 1.5em;
+    padding-left: 3em;
+    border: none;
+    background: #E5E5E5EB;
+
+    font-weight: 600;
+    color: #000000;
+    border-radius: 67px;
+
+    /* -webkit-appearance: none;
+    appearance: none; */
+}
+
+.inv_payment_amount_input{
+    margin-top: 2em;
+    width: 85%;
+    border: none;
+    border-radius: 67px;
+    background: #E5E5E5EB;
+    padding: 1.7em;
+    padding-left: 3em;
+    font-weight: 600;
+    color: #000000;
+
+
+}
+
+.inv_payment_amount_input::placeholder{
+    font-weight: 600;
+    color: #000000;
+
+
+}
+
+.inv_payment_pay_btn{
+    margin: 3.5em 0em;
+    border-radius: 62.37px;
+    width: 61%;
+    padding: 1.2em;
+    border: none;
+    background: #6FA66B;
+    color: white;
+    font-weight: 600;
+    font-family: "Montserrat";
+    font-size: 1.1em;
+    cursor: pointer;
+}

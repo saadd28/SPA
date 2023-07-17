@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@500&family=Inter:wght@300;400&family=Montserrat&display=swap');
+
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+
+.footer_container{
+    background-image: url("/src/img//footerbackground.png") ;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_leaf_img{
+    position: absolute;
+    left:0;
+    bottom: 0;
+    height:80%;
+    width: 13%;
+    
+}
+
+.footer_content_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    /* border: 2px solid red; */
+    /* padding-top: 5em; */
+    margin: 5em 0 2em 0;
+}
+
+.footer_header{
+    color: white;
+    font-size: 2em;
+}
+
+.footer_header_style{
+    font-weight: bolder;
+}
+
+.footer_para{
+    color: white;
+    font-size: 1.1em;
+    font-weight: 200;
+    padding-top: 3rem;
+    text-align: center;
+}
+
+.footer_contact_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 99%;
+    margin-top: 5rem;
+
+    /* border: 2px solid rebeccapurple; */
+}
+
+.contact_template{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact_method_title{
+    font-weight: bold;
+    font-size: 2em;
+    padding: 0.3em 0em;
+    
+}
+
+.contact_method_info{
+    font-size: 1.2em;
+    font-weight: 100;
+}
+
+.footer_vertical_divider{
+    width: 0px;
+    height: 100%;
+    border-left: 2px solid white;
+}
+
+
+.contact_socialmedia_icons_container{
+    display: flex;
+    width: 50%;
+    /* justify-content: space-around; */
+    align-items: center;
+    justify-content: center;
+    padding-top: 5%;
+
+    /* border: 2px solid palegreen; */
+}
+
+.contact_socialmedia_icons_container img{
+    margin: 1% 4%;
+}
+
+.contact_socialmedia_icons_container img:hover{
+    cursor: pointer;
+}
+
+.footer_text{
+    text-decoration: underline;
+    color: white;
+    font-size: 1em;
+    font-weight: 400;
+    margin-top: 2%;
+}
+
+.footer_text:hover{
+    color: #6FA66B;
+    cursor: pointer;
+}
